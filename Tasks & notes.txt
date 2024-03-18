@@ -1,0 +1,22 @@
+(This file will need to be added to the .gitignore after pulling the repository and removed)
+
+Tasks
+---------------------------------------------------------------------
+Set up css and java script.
+Draw out a layout.
+
+
+Do some research on client side saving:
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage - This is a sight that can help
+
+Do some research on server side saving:
+https://www.quora.com/What-steps-should-I-take-to-enable-my-website-to-store-user-data-for-individuals-who-have-signed-in - This sight that can help
+From the looks of it a database will need to be ran to keep the information stored while also alowing it to be accessed from another machine
+This will be done by user loging into an account.
+
+Possible items for budgeter:
+Entertainment
+Bills
+Food
+Income
+Loans paymnet calculations
