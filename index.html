@@ -4,6 +4,43 @@
 
   <body>
     <h1>Budgeter (Basic)</h1>
+	
+	<div id="bils">
+		<h3>Static</h3>
+		<div id="stat">
+			<p>Netflix Account</p>
+			<p>Total: $</p>
+			<!-- Skipping Reoccurence for now -->
+		</div>
+		
+		<h3>Variable</h3>
+		<div id="vari">
+			<p>Water Bill</p>
+			<p>Total</p>
+			<label for="money">$</label>
+			<input name="money" type="number" min="0.01" step="0.01" data-type="currency" placeholder="0.00"/>
+		</div>
+		
+	</div>
+	
+	<div id="inco">
+		<form class="incomfrm">
+		
+			<label for="incomtype">Choose income Type: </label>
+		
+			<select name="incomtype" id="incomtype">
+				<option value="monthly">Monthly</option>
+				<option value="weekly">Weekly</option>
+				<option value="biweekly">Bi-Weekly</option>
+			</select>
+		</form>
+
+	</div>
+	
+	<div id="disp">
+		<!-- Will need to do a bit more layout for the bottom section -->
+		<p>This is where everything will be added up and calculated (More layout needed)</p>
+	</div>
 
     
   </body>
