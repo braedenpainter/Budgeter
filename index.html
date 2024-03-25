@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+	<link rel="stylesheet" type="text/css" href="styles/mainsty.css">
+  </head>
 
   <body>
     <h1>Budgeter (Basic)</h1>
 	
+	<hr>
+	
 	<div id="bils">
-		<h3>Static</h3>
-		<div id="stat">
-			<p>Netflix Account</p>
-			<p>Total: $</p>
-			<!-- Skipping Reoccurence for now -->
+		<h2>Bills</h2>
+		<hr>
+		<div class="stat">
+			<div class="statholder">
+				<h3>Static</h3>
+				<div class="statitem">
+					<p>Netflix Account</p>
+					<label for="money">Total: $</label>
+					<p name="money"></p>
+					<!-- Skipping Reoccurence for now -->
+				</div>
+				
+				<div class="statitem">
+					<p>Game Pass</p>
+					<label for="money">Total: $</label>
+					<p name="money"></p>
+				</div>
+			</div>
 		</div>
 		
-		<h3>Variable</h3>
-		<div id="vari">
-			<p>Water Bill</p>
-			<p>Total</p>
-			<label for="money">$</label>
-			<input name="money" type="number" min="0.01" step="0.01" data-type="currency" placeholder="0.00"/>
+		<div class="vari">
+			<div class="variholder">
+				<h3>Variable</h3>
+				<div class="varitem">
+					<p>Water Bill</p>
+					<label for="money">Total: $</label>
+					<input name="money" type="number" min="0.01" step="0.01" data-type="currency" placeholder="0.00"/>
+				</div>
+			</div>
+			
 		</div>
 		
 	</div>
+	
+	<hr>
 	
 	<div id="inco">
 		<form class="incomfrm">
@@ -33,13 +56,37 @@
 				<option value="weekly">Weekly</option>
 				<option value="biweekly">Bi-Weekly</option>
 			</select>
+			
+			<label for="money">$ </label>
+			<input name="money" type="number" min="0.01" step="0.01" data-type="currency" placeholder="0.00"/>
+		
+			<input type="submit" value="Calculate">
 		</form>
 
 	</div>
 	
+	<hr>
+	
 	<div id="disp">
 		<!-- Will need to do a bit more layout for the bottom section -->
-		<p>This is where everything will be added up and calculated (More layout needed)</p>
+		<div id="bilist">
+			<div class="bilistitem">
+				<label>Amazon Prime</label>
+				<label class="amt">Total: $</label>
+				
+			</div>
+			
+			<div class="bilistitem">
+				<label>Income</label>
+				<label class="amt">Total: $</label>
+			</div>
+			
+		</div>
+		<hr>
+		<div id="totals">
+			<p>Overage</p>
+			<p class="amt">End Total: $</p>
+		</div>
 	</div>
 
     

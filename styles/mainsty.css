@@ -1,0 +1,49 @@
+#bils {
+	display: inline-block;
+	width: 100%;
+}
+
+#bils p, #bils label {
+	padding-left: 10px;
+}
+
+h2 {
+	display: block;
+}
+
+.stat {
+	float: left;
+	width: 45%;
+}
+
+.statitem {
+	border: 2px black dashed;
+	margin-bottom: 10px;
+}
+
+.varitem {
+	border: 2px black dashed;
+}
+
+.vari {
+	float: right;
+	width: 45%;
+}
+
+.bilistitem {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: .5px solid black;
+	border-bottom: .5px solid black;
+	
+	padding-left: 5px;
+	margin-top: 3px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+#totals {
+	display: flex;
+	justify-content: space-between;
+}
