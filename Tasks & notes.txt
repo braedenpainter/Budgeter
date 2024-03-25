@@ -3,7 +3,27 @@
 Tasks
 ---------------------------------------------------------------------
 Set up css and java script.
-Draw out a layout.
+
+
+
+Build the main tab
+. Top Section
+.. Needs two sections (Static and Varibale) - Probably done with some simple labels or h3s
+.. Will also need to continers that have the list of bills in them (Bill Name, total, possible reoccurance)
+.. Going to use a couple text boxes for the variable options
+
+...Stopping Point(Need to figure out how to style the top portion a little bit better)
+
+. Middle Section (Income)
+.. One dropdown menu(Monthly, Weekly, BiWeekly)
+.. One text box to input the total for the income(Needs to be formated to currency)
+..There will also be a button that will perform the calculations
+
+. Bottom Section (Output)
+.. Text that is going to show all the calculated bills together.
+
+//Lets get building
+
 
 
 Do some research on client side saving:
