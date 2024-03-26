@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/mainsty.css">
+		<link rel="stylesheet" type="text/css" href="styels/secsty.css">
+	</head>
+	
+	<body>
+		<h1>Add Bill</h1>
+		
+		<div id="addBill">
+			<form id="mainform">
+				<label for="billname">Bill Name</label>
+				<input type="text" name="billname" id="bname" placeholder="Enter Bill Name">
+				<label for="billtype">Type of Bill</label>
+				<select name="billtype">
+					<option value="variable">Variable</option>
+					<option value="static">Static</option>
+				</select>
+				<label for="money">Total $:</label>
+				<input name="money" type="number" min="0.01" step="0.01" data-type="currency" placeholder="0.00"/>
+				<input type="submit" value="Add">
+			</form>
+		</div>
+		
+		<hr>
+		
+		<div id="bilist">
+			<div class="bilistitem">
+				<label class="billname">Amazon Prime</label>
+				<label class="biltye">Static</label>
+				<label class="amt">Total: $</label>
+				<input type="button" value="Delete">
+			</div>
+			
+			<div class="bilistitem">
+				<label class="billname">Income</label>
+				<label class="biltye">Variable</label>
+				<label class="amt">Total: $</label>
+				<input type="button" value="Delete">
+			</div>
+			
+		</div>
+	</body>
+	
+	<footer></footer>
+</html>

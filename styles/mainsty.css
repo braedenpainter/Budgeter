@@ -43,7 +43,11 @@ h2 {
 	justify-content: space-between;
 }
 
-#totals {
+.billname, .biltye {
+	width: 200px;
+}
+
+m #totals {
 	display: flex;
 	justify-content: space-between;
 }
